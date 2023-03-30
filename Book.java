@@ -50,6 +50,10 @@ public class Book implements Serializable {
     public void setVisibility(boolean visibility) {
         this.visibility = visibility;
     }
+    
+    public String toString() {
+        return autor + " " + title;
+    }
 }
 
 
